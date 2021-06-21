@@ -2,7 +2,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import MoviesList from '../components/MoviesList';
-import from 
+import MovieShow from ""
 const MoviesPage = ({ match, movies }) => (
   <div>
     <MoviesList movies={movies} />
